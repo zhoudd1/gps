@@ -1,0 +1,3 @@
+在串口接收函数中填充GPS缓存
+gps_buf_fill_data(cr);
+然后gps线程中运用nmealib库函数nmea_parse解析即可
